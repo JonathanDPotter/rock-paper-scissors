@@ -12,3 +12,37 @@
   align-items: center;
   justify-content: center;
 }
+
+#score {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+}
+
+.scores {
+  border: 1px solid black;
+  font-size: x-large;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+#buttons {
+  margin: 50px;
+  width: 50vw;
+  display: flex;
+  justify-content:space-around;
+}
+.choice {
+  height: 70px;
+  width: 70px;
+  background-color:rgb(238, 137, 137);
+}
+#results {
+  height: 80px;
+  width: 50vw;
+  text-align: center;
+}
+.hidden {
+  opacity: 0;
+}
